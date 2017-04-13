@@ -1,0 +1,21 @@
+AvaroOS
+http://avaroos.ml
+How To Remastering Ubuntu/Linux Mint And Other Ubuntu Based
+
+You need:
+1.UCK
+  $sudo apt install uck
+2.Activate Modprobe squashfs
+  $sudo modprobe squashfs
+3.Internet Connection  For Adding Application Package Into Your New Distro
+4.Base Linux Mint/Ubuntu,etc(Only Ubuntu Based)
+Let's Rock Now!
+
+1.Open Terminal and type
+ $sudo uck-remaster-clean
+ $cd /your-distro-base-directory
+ $sudo uck-remaster-unpack-iso your_iso_base_name.iso /Your Unpacked ISO Directory Prefered
+ $sudo uck-remaster-unpack-rootfs /Your Unpacked rootfs Directory Prefered
+ $sudo uck-remaster-unpack-initrd /Your Unpacked initrd Directory Prefered
+ $sudo uck-remaster-chroot-rootfs /Your Unpacked root user file Directory Prefered
+ 
