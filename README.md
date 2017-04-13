@@ -1,2 +1,2 @@
 # AvaroOS-Remaster
-Remaster KList
+Remaster List
